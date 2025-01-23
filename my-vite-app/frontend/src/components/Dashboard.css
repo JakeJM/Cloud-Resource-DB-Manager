@@ -1,0 +1,109 @@
+.dashboard {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    text-align: center; /* Center the title */
+  }
+  
+  .create-vm-button, .logout-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 12px; /* Rounded edges */
+    margin-right: 10px; /* Add some space between buttons */
+  }
+  
+  .create-vm-button:hover, .logout-button:hover {
+    background-color: #45a049;
+  }
+  
+  .vm-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .vm-table th, .vm-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .vm-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .action-button {
+    padding: 5px 10px;
+    margin: 2px;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px; /* Rounded edges */
+  }
+  
+  .action-button.start {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .action-button.stop {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .action-button.billing {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .action-button.delete {
+    background-color: #ff9800;
+    color: white;
+  }
+  
+  .action-button:hover {
+    opacity: 0.8;
+  }
+  
+  .billing-details {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+  }
+
+ /* frontend/src/components/Dashboard.css */
+
+.snapshot-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.snapshot-table th, .snapshot-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.snapshot-table th {
+  background-color: #f2f2f2;
+}
+
+.snapshot-table td button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #2196F3;
+  color: white;
+}
+
+.snapshot-table td button:hover {
+  opacity: 0.8;
+}
+

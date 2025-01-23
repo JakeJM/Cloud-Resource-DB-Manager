@@ -1,0 +1,31 @@
+/* frontend/src/components/Dashboard.css */
+
+.snapshot-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.snapshot-table th, .snapshot-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.snapshot-table th {
+  background-color: #f2f2f2;
+}
+
+.snapshot-table td button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #2196F3;
+  color: white;
+}
+
+.snapshot-table td button:hover {
+  opacity: 0.8;
+}
+

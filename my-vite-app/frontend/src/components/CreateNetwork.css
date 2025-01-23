@@ -1,0 +1,16 @@
+/* src/components/CreateNetwork.css */
+form {
+  margin: 20px 0;
+}
+
+input, select {
+  display: block;
+  margin: 10px 0;
+}
+
+button {
+  margin: 10px 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
